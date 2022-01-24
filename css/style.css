@@ -5,23 +5,45 @@
 /* font-family: 'Manrope', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif; */
+
+/* common style  */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
 
     font-family: 'Poppins', sans-serif;
 }
 
+/* header style  */
 .carousel-inner img {
     object-fit: cover;
     height: 584px;
     width: 100%;
 }
 
+.carousel img {
+    margin: auto;
+}
+
+/* .package section   */
 .package-badge {
     right: 2%;
 }
 
-.carousel img {
-    margin: auto;
+.package h3,
+.package h4 {
+
+    font-family: Roboto;
+    color: #231D4F;
+}
+
+.package p {
+
+    font-size: 15px;
+    font-weight: 400;
+    opacity: .9;
 }
 
 .package-item-btn {
@@ -35,14 +57,22 @@ body {
 }
 
 
-
+/* about setion  */
 .about-us-icon {
     font-size: 50px;
 
 }
 
-
+/* frequently ask section  */
 .frequently-ask-item {
     border: 2px solid #D5E5FB;
     border-radius: 5px;
+}
+
+/* footer  */
+footer p {
+
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
 }
