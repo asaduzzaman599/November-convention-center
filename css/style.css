@@ -27,9 +27,6 @@ body {
     width: 100%;
 }
 
-.carousel img {
-    margin: auto;
-}
 
 /* .package section   */
 .package-badge {
@@ -50,10 +47,6 @@ body {
     opacity: .9;
 }
 
-.package-item-btn {
-
-    background-color: #f3ebf0;
-}
 
 .package-hot-item {
     box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
