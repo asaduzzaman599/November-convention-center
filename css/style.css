@@ -16,6 +16,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.title-color {
+    color: #0A0826;
+}
+
 /* header style  */
 .carousel-inner img {
     object-fit: cover;
